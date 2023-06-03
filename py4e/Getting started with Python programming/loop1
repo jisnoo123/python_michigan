@@ -1,0 +1,16 @@
+#lets play with loops
+#calculating sum of digits
+n=input("Enter an integer number")
+print("Your number is",n)
+try :
+    n= int(n)
+except:
+    print('Your number is not an integer')
+    quit()
+s=0
+while n>0:
+    d = n%10
+    s=s+d
+    n=int(n/10)
+#end of while
+print("Sum of digits",s)

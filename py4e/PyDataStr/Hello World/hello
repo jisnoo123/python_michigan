@@ -1,0 +1,4 @@
+d=dict()
+d['csev']=2
+d['cwen']=4
+print(d.items())

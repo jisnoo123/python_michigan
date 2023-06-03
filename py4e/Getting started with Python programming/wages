@@ -1,0 +1,9 @@
+r=input('Enter rate')
+h=input('Enter hours')
+try:
+    ir= float(r)
+    ih= int(h)
+except:
+    print('Error in input . Pls enter a numeric input')
+#checking if try block ran code and is stored
+print(ir)

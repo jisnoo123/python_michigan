@@ -1,0 +1,8 @@
+print("Ok , so I'm now at week  6 and lets define functions")
+#defining a function . def is a keyword to define functions
+def function():
+    print("Hola Bonjour mean the same thing bro")
+#end of function
+print("Invoking function")
+function()
+print("All done")

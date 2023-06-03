@@ -1,0 +1,17 @@
+small = None 
+large = None
+#largest=156 smallest=1
+#calculating smallest value of iteration variable
+for i in [1,45,56,32,93,47,156]:
+    if small is None:
+        small = i
+    elif i<small:
+        small = i
+#calculating largest
+for i in [1,45,56,32,93,47,156]:
+    if large is None:
+        large = i
+    elif i>large:
+        large = i
+#displaying largest and smallest values
+print("Largest",large,"Smallest",small)

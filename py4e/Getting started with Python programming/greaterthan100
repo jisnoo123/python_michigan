@@ -1,0 +1,10 @@
+x= input('Enter a number')
+x= int(x)
+#Checking if the number is greater than 100
+if(x>100):
+    print('Greater than 100')
+    print('The number was',x,'which is greater than 100')
+else:
+    print('Not greater than 100')
+    print('The number was',x,'which is less than 100')
+print('Code done and succesfully executed')

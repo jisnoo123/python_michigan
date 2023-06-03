@@ -1,0 +1,14 @@
+#Checking the number for the following
+x=input('Enter a number')
+x=int(x)
+#checking
+if(x<10):
+    print(x,'is less than 10')
+elif(x<20):
+    print(x,'is less than 20')
+elif(x<100):
+    print(x,'is less than 100')
+else:
+    print(x,'Greater than 100')
+#end of block
+print('All done')

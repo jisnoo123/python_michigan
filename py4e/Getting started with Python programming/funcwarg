@@ -1,0 +1,14 @@
+#lets define functions having arguments
+def function(a,b):
+    #so what this function does is , it returns the greater one
+    if(a>b):
+        print(a,"is greater")  
+    elif(b>a):
+        print(b,"is gretaer") 
+    else:
+        print ("Both are equal")
+print("Enter two numbers")
+c=input()
+d=input()
+function(c,d)
+print('All done')
