@@ -4,7 +4,7 @@ import ssl
 from urllib.parse import urljoin
 from urllib.parse import urlparse
 from urllib.request import urlopen
-import BeautifulSoup
+from bs4 import BeautifulSoup
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
